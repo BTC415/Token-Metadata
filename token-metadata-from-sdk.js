@@ -8,7 +8,7 @@ const config = {
 const alchemy = new Alchemy(config);
 
 const metadata = await alchemy.core.getTokenMetadata(
-  "0x514910771af9ca656af840dff83e8264ecf986ca"
+  "0xdAC17F958D2ee523a2206206994597C13D831ec7"
 );
 
 console.log("Token Metadata ------> ", metadata)
